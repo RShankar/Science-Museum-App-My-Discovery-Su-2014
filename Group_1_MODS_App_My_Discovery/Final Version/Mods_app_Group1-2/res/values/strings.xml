@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Discovery</string>
+    <color name="yellow">#FFD700</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#24C314</color>
+    <color name="blue">#5AC9B3</color>
+    <string name="mods_label">MODS</string>
+    <string name="manatee_label">Manatee Mania</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    
+
+</resources>

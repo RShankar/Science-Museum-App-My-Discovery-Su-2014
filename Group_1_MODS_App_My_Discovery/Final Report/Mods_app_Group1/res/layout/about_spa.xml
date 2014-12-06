@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_spa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/languageselection"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="64dp"
+        android:text="Esta aplicación fue desarrollada en la clase 'Mobile Apps: Google Android Verano 2014' por Nailane Oliveira, Oliver Zavala, Chris Hoyek y Maxwell Carter."
+        android:textSize="35dp" />
+
+</RelativeLayout>

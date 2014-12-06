@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/floor1plan"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="49dp"
+        android:layout_weight="0.13"
+        android:gravity="center"
+        android:text="First floor"
+        android:textColor="@color/green"
+        android:textSize="50dip" />
+
+    <ImageButton
+        android:id="@+id/DiscoveryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="69dp"
+        android:layout_marginLeft="68dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_launcher5" />
+
+    <ImageButton
+        android:id="@+id/evergladesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="137dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_launcher5" />
+
+    <ImageButton
+        android:id="@+id/stormButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/DiscoveryButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_launcher5" />
+
+    <ImageButton
+        android:id="@+id/floridaEcoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stormButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_launcher5" />
+
+    <ImageButton
+        android:id="@+id/preHistoricButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/evergladesButton"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/floridaEcoButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_launcher5" />
+
+    <ImageButton
+        android:id="@+id/floridaWaterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stormButton"
+        android:layout_alignLeft="@+id/floridaEcoButton"
+        android:layout_marginLeft="22dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_launcher5" />
+
+    <ImageButton
+        android:id="@+id/otterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/preHistoricButton"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@+id/floridaEcoButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_launcher5" />
+
+    <ImageButton
+        android:id="@+id/goGreenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/floridaEcoButton"
+        android:layout_alignLeft="@+id/evergladesButton"
+        android:layout_marginBottom="41dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_final" />
+
+</RelativeLayout>

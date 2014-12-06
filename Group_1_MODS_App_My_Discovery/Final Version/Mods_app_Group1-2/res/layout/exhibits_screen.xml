@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app2"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/firstFloor_sign"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="66dp"
+        android:layout_gravity="center"
+        android:src="@drawable/firstfloor" />
+
+    <Button
+        android:id="@+id/secondFloor"
+        android:layout_width="260dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/firstFloor"
+        android:layout_below="@+id/firstFloor_sign"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/firstFloor"
+        android:layout_width="260dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/secondFloor_sign"
+        android:layout_alignTop="@+id/firstFloor_sign"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/secondFloor_sign"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignLeft="@+id/firstFloor_sign"
+        android:layout_below="@+id/firstFloor"
+        android:src="@drawable/secondfloor" />
+
+</RelativeLayout>

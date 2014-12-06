@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app3"
+    tools:context="${packageName}.${activityClass}" >
+
+    <Button
+        android:id="@+id/exposicionesButton"
+        android:layout_width="260dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/exposiciones"
+        android:layout_alignRight="@+id/exposiciones"
+        android:layout_marginBottom="96dp"
+        android:layout_marginRight="28dp"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imageButton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/sobre"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/exposiciones"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="13dp"
+        android:src="@drawable/exposiciones" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_alignLeft="@+id/exposiciones"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/estacionamiento" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="41dp"
+        android:src="@drawable/salir"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="260dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginTop="49dp"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignTop="@+id/exposicionesButton"
+        android:layout_marginTop="139dp"
+        android:src="@drawable/juego"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

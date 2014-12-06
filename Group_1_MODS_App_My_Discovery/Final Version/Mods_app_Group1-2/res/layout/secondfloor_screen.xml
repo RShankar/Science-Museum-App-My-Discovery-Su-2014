@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/floor2plan"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:layout_weight="0.13"
+        android:text="Second floor"
+        android:textColor="@color/green"
+        android:textSize="50dip" />
+
+    <ImageButton
+        android:id="@+id/AviationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="285dp"
+        android:layout_marginLeft="121dp"
+        android:src="@drawable/ic_launcher5"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/gooseBumpsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="115dp"
+        android:layout_toRightOf="@+id/AviationButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_launcher5" />
+
+    <ImageButton
+        android:id="@+id/powerfulButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/AviationButton"
+        android:layout_marginLeft="39dp"
+        android:layout_toRightOf="@+id/gooseBumpsButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_launcher5" />
+
+    <ImageButton
+        android:id="@+id/dinosaurButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/AviationButton"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="111dp"
+        android:layout_toRightOf="@+id/powerfulButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_launcher5" />
+
+</RelativeLayout>

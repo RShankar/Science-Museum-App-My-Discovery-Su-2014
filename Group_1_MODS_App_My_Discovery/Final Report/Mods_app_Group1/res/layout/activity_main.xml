@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app3" 
+    tools:context="${packageName}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0.02dp"
+        android:layout_height="218dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="255686.06"
+        android:onClick="anterior"
+        android:src="@drawable/gamebutton" />
+
+
+<!--     <Button -->
+<!--         android:id="@+id/about" -->
+<!--         android:layout_width="300dp" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_above="@+id/exit" -->
+<!--         android:layout_alignParentRight="true" -->
+<!--         android:layout_marginBottom="35dp" -->
+<!--         android:background="@android:color/transparent" -->
+<!--         android:text="@string/about_label" /> -->
+
+    <!-- <Button -->
+    <!-- android:id="@+id/exit" -->
+    <!-- android:layout_width="300dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignLeft="@+id/mods" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- android:background="@android:color/transparent" -->
+    <!-- android:text="@string/exit_label" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/manatee" -->
+    <!-- android:layout_width="300dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentLeft="true" -->
+    <!-- android:layout_below="@+id/mods" -->
+    <!-- android:layout_marginTop="76dp" -->
+    <!-- android:background="@android:color/transparent" -->
+    <!-- android:text="@string/manatee_label" /> -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/exhibits" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/gameButton1"
+        android:layout_marginRight="128dp"
+        android:layout_marginTop="47dp"
+        android:src="@drawable/parking" />
+
+    <Button
+        android:id="@+id/mods"
+        android:layout_width="228dp"
+        android:layout_height="125dp"
+        android:layout_alignLeft="@+id/aboutButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/aboutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gameButton1"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/about" />
+
+    <ImageButton
+        android:id="@+id/gameButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mods"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/gamebutton" />
+
+    <Button
+        android:id="@+id/parking"
+        android:layout_width="228dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/aboutButton"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/aboutButton"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/exit" />
+
+</RelativeLayout>
